@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		78DBFA2F2188F453006328E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA2E2188F453006328E5 /* AppDelegate.swift */; };
-		78DBFA312188F453006328E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA302188F453006328E5 /* ViewController.swift */; };
+		78DBFA312188F453006328E5 /* Benvenuto1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA302188F453006328E5 /* Benvenuto1.swift */; };
 		78DBFA342188F453006328E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DBFA322188F453006328E5 /* Main.storyboard */; };
 		78DBFA362188F455006328E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DBFA352188F455006328E5 /* Assets.xcassets */; };
 		78DBFA392188F455006328E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DBFA372188F455006328E5 /* LaunchScreen.storyboard */; };
+		78DBFA462188F4E0006328E5 /* Giocatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA452188F4E0006328E5 /* Giocatore.swift */; };
+		78DBFA482188F627006328E5 /* Aggregatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA472188F627006328E5 /* Aggregatore.swift */; };
+		78DBFA4A2188F634006328E5 /* DatabaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA492188F634006328E5 /* DatabaseProvider.swift */; };
+		78DBFA4C2188F740006328E5 /* Squadra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA4B2188F740006328E5 /* Squadra.swift */; };
+		78DBFA4E2188F89F006328E5 /* Sistema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA4D2188F89F006328E5 /* Sistema.swift */; };
+		78DBFA502188FD7D006328E5 /* Benvenuto2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA4F2188FD7D006328E5 /* Benvenuto2.swift */; };
+		78DBFA52218900C1006328E5 /* Benvenuto3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBFA51218900C1006328E5 /* Benvenuto3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78DBFA2B2188F453006328E5 /* FantAsta 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FantAsta 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DBFA2E2188F453006328E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78DBFA302188F453006328E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78DBFA302188F453006328E5 /* Benvenuto1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benvenuto1.swift; sourceTree = "<group>"; };
 		78DBFA332188F453006328E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78DBFA352188F455006328E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78DBFA382188F455006328E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DBFA3A2188F455006328E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DBFA452188F4E0006328E5 /* Giocatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giocatore.swift; sourceTree = "<group>"; };
+		78DBFA472188F627006328E5 /* Aggregatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregatore.swift; sourceTree = "<group>"; };
+		78DBFA492188F634006328E5 /* DatabaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProvider.swift; sourceTree = "<group>"; };
+		78DBFA4B2188F740006328E5 /* Squadra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squadra.swift; sourceTree = "<group>"; };
+		78DBFA4D2188F89F006328E5 /* Sistema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sistema.swift; sourceTree = "<group>"; };
+		78DBFA4F2188FD7D006328E5 /* Benvenuto2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benvenuto2.swift; sourceTree = "<group>"; };
+		78DBFA51218900C1006328E5 /* Benvenuto3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benvenuto3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,61 @@
 		78DBFA2D2188F453006328E5 /* FantAsta 2 */ = {
 			isa = PBXGroup;
 			children = (
+				78DBFA442188F4A5006328E5 /* Provider */,
+				78DBFA432188F4A1006328E5 /* Algoritmo */,
+				78DBFA422188F494006328E5 /* Logica */,
+				78DBFA412188F48C006328E5 /* Modelli */,
+				78DBFA402188F471006328E5 /* Controller */,
 				78DBFA2E2188F453006328E5 /* AppDelegate.swift */,
-				78DBFA302188F453006328E5 /* ViewController.swift */,
 				78DBFA322188F453006328E5 /* Main.storyboard */,
 				78DBFA352188F455006328E5 /* Assets.xcassets */,
 				78DBFA372188F455006328E5 /* LaunchScreen.storyboard */,
 				78DBFA3A2188F455006328E5 /* Info.plist */,
 			);
 			path = "FantAsta 2";
+			sourceTree = "<group>";
+		};
+		78DBFA402188F471006328E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78DBFA302188F453006328E5 /* Benvenuto1.swift */,
+				78DBFA4F2188FD7D006328E5 /* Benvenuto2.swift */,
+				78DBFA51218900C1006328E5 /* Benvenuto3.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78DBFA412188F48C006328E5 /* Modelli */ = {
+			isa = PBXGroup;
+			children = (
+				78DBFA452188F4E0006328E5 /* Giocatore.swift */,
+				78DBFA4B2188F740006328E5 /* Squadra.swift */,
+			);
+			path = Modelli;
+			sourceTree = "<group>";
+		};
+		78DBFA422188F494006328E5 /* Logica */ = {
+			isa = PBXGroup;
+			children = (
+				78DBFA4D2188F89F006328E5 /* Sistema.swift */,
+			);
+			path = Logica;
+			sourceTree = "<group>";
+		};
+		78DBFA432188F4A1006328E5 /* Algoritmo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algoritmo;
+			sourceTree = "<group>";
+		};
+		78DBFA442188F4A5006328E5 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				78DBFA472188F627006328E5 /* Aggregatore.swift */,
+				78DBFA492188F634006328E5 /* DatabaseProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DBFA312188F453006328E5 /* ViewController.swift in Sources */,
+				78DBFA482188F627006328E5 /* Aggregatore.swift in Sources */,
+				78DBFA52218900C1006328E5 /* Benvenuto3.swift in Sources */,
+				78DBFA312188F453006328E5 /* Benvenuto1.swift in Sources */,
+				78DBFA4E2188F89F006328E5 /* Sistema.swift in Sources */,
+				78DBFA502188FD7D006328E5 /* Benvenuto2.swift in Sources */,
+				78DBFA462188F4E0006328E5 /* Giocatore.swift in Sources */,
+				78DBFA4C2188F740006328E5 /* Squadra.swift in Sources */,
+				78DBFA4A2188F634006328E5 /* DatabaseProvider.swift in Sources */,
 				78DBFA2F2188F453006328E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
